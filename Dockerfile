@@ -9,4 +9,4 @@ COPY entrypoint.sh /app
 COPY . /app
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/app/entrypoint.sh"]
